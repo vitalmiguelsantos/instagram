@@ -1,0 +1,43 @@
+.card-container {
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #DBDBDB;
+}
+
+/*********** HEADER ************/
+.card-header-container{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.card-header-container img{
+    height: 40px;
+    border-radius: 50%;
+}
+/********************************/
+
+/*********** FOTO ***************/
+.card-foto{
+     width: 500px;
+     height: 500px;
+}
+
+.card-foto img{
+    width: inherit;
+}
+/********************************/
+
+/*********** ICONES *************/
+/********************************/
+
+/*********** COMENTARIOS ******/
+/********************************/
+
+/*********** INPUT **************/
+/********************************/
