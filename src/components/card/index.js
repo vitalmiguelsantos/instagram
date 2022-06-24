@@ -1,7 +1,10 @@
 import React from 'react';
 import './style.css';
 
-import { TbDots} from 'react-icons/tb'
+import { TbDots} from 'react-icons/tb';
+import { IoMdPaperPlane, IoMdHeartEmpty } from 'react-icons/io';
+import { FiBookmark } from 'react-icons/fi';
+import { FaRegComment } from 'react-icons/fa';
 
 import Foto from '../../assets/img/img_01.jpg';
 import User from '../../assets/img/foto.png';
@@ -17,7 +20,7 @@ export const Card = () => {
                 <img src={Foto} alt="foto FFXIV" />
             </div>
             <div className="card-icones">
-                
+                icones
             </div>
             <div className="card-comentarios">comentarios</div>
             <div className="card-novos-comentarios">input</div>
