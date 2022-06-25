@@ -7,7 +7,7 @@
 </div>
 
 <div display:"inline-block" align="center"><br>
-  <img align="justify" alt="React JS" width="600" src="https://cdn.discordapp.com/attachments/947910673470480397/990094769512407080/Konohagram_-_Mozilla_Firefox_2022-06-25_00-19-55_AdobeExpress.gif">
+  <img align="justify" alt="React JS" width="1000" src="https://cdn.discordapp.com/attachments/947910673470480397/990096570491998208/Captura_de_Tela_34.png"/>
 </div>
 
 > Status: Developed 🙅🏾‍♂️
