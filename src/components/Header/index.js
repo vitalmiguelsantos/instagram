@@ -1,37 +1,61 @@
-import React from 'react';
-import './style.css';
-import { IoMdHeartEmpty } from 'react-icons/io'
-import { MdHomeFilled} from 'react-icons/md'
-import { TbSquarePlus} from 'react-icons/tb'
-import { RiMessengerLine} from 'react-icons/ri'
-import { ImCompass2} from 'react-icons/im'
+import { AiOutlineSearch, AiFillHome } from 'react-icons/ai'
+import { RiMessengerLine } from 'react-icons/ri'
+import { BsPlusSquare } from 'react-icons/bs'
+import {MdOutlineExplore} from 'react-icons/md'
+import {FiHeart} from 'react-icons/fi'
 
-import Logo from '../../assets/img/Instagram_logo.png' 
-import User from '../../assets/img/foto.png'
+import { IconContext } from 'react-icons'
 
-const Home = () => {
-    return(
-        <div className='header-container' >
-            <div className='header-body'>
-                <div className='header-logo'>
-                    <img src={Logo} alt="Logo instagram" />
+import './style.css'
+
+export function Header() {
+
+    return (
+        <header className="header" >
+
+            <div className="container" >
+
+                <img className="logo" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" />
+
+                <div className="input-fake">
+                    <IconContext.Provider value={{ color: '#8e8e8e' }}>
+                        <AiOutlineSearch />
+                    </IconContext.Provider>
+                    
+                    <input placeholder="Pesquisar" />
                 </div>
 
-                <div className='header-pesquisa'>
-                    <input type="text" placeholder="Pesquisar" />
-                 </div>
+                <div className="menu-icons" >
+                    <IconContext.Provider value={{ size: '26px' }}>
+                        <div>
+                            <AiFillHome />
+                        </div>
 
-                <div>
-                    <MdHomeFilled size={28} className='header-icons' />
-                    <RiMessengerLine size={28} className='header-icons' />
-                    <TbSquarePlus size={28} className='header-icons' />
-                    <ImCompass2 size={28} className='header-icons' />
-                    <IoMdHeartEmpty size={28} className='header-icons' />
-                    <img src={User} className="header-foto" alt="foto do usuário" />
+                        
+                        <div>
+                            <RiMessengerLine />
+                        </div>
+
+                        <div>
+                            <BsPlusSquare />
+                        </div>
+
+                        <div>
+                            <MdOutlineExplore />
+                        </div>
+
+                        <div>
+                            <FiHeart />
+                        </div>
+                        
+
+                    </IconContext.Provider>
+                    <img className="img-user" src="https://i.pinimg.com/originals/4a/91/b6/4a91b612f1e3035d38bcd1afaf579961.gif" />
                 </div>
+
             </div>
-        </div>
-        )
-    }
-    
-    export default Home;
+
+        </header>
+    )
+
+}
