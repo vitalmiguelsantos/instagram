@@ -1,3 +1,25 @@
+<div align="center" display="inline-block">
+ <a href="https://www.instagram.com/saints.miguel" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ <a href="https://www.linkedin.com/in/miguel-santos-vital-73221822b" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ <a href = "mailto:vital.miguelsantos@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank
+ </a>
+<a href="." target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" target="_blank"></a>
+</div>
+
+<div display:"inline-block" align="center"><br>
+  <img align="justify" alt="React JS" width="600" src="https://cdn.discordapp.com/attachments/947910673470480397/990094769512407080/Konohagram_-_Mozilla_Firefox_2022-06-25_00-19-55_AdobeExpress.gif">
+</div>
+
+> Status: Developed 🙅🏾‍♂️
+
+### It is a web application where I practiced my knowledges in use of React JS through a tutorial.
+
+## Technologies Used:
+
+ <div display:"inline-block" align="center"><br>
+  <img align="justify" alt="React JS" width="200" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
